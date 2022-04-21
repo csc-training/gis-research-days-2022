@@ -25,6 +25,19 @@ eg. https://github.com/csc-training/geocomputing/tree/master/snap
 
 https://github.com/csc-training/geocomputing/tree/master/R/puhti
 
+CSC R documentation, tutorials and workshop materials:
+
+R environment documentation
+https://docs.csc.fi/apps/r-env-singularity/
+
+Launching RStudio
+https://docs.csc.fi/support/tutorials/rstudio-or-jupyter-notebooks/
+
+Parallel R tutorial
+https://docs.csc.fi/support/tutorials/parallel-r/
+
+Older workshop slides on the CSC R environment
+https://csc-training.github.io/puhti-r-workshop/slides/html/05_r-env.html
 
 # Something with Matlab
 
