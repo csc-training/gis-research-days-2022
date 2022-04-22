@@ -7,16 +7,29 @@ lang: en
 theme: csc-2016
 ---
 
-# Something with DEM
+# Something with GDAL
 
-Data -  Workflow - own Computer vs Puhti
+(workflow to be adjusted!)
+Data: some tif files
+Workflow: reproject add overview
 
 eg. https://github.com/csc-training/geocomputing/tree/master/gdal?
 
+# Something with DEM
+
+Data: NLS pointcloud 
+
+Worfkflow: pointcloud to raster per tile, then vrt
+
+parallelization as eg array job
 
 # Something with SNAP
 
-Data -  Workflow - own Computer vs Puhti
+Data: Sentinel-1
+
+workflow: calibration, subsetting, terrain correction
+
+parallelization as array job
 
 eg. https://github.com/csc-training/geocomputing/tree/master/snap
 
@@ -49,7 +62,6 @@ own computer vs Pouta
 
 eg: https://github.com/csc-training/geocomputing/tree/master/pouta/postgis
 
-# 
 
 
 
