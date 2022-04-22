@@ -10,16 +10,17 @@ Klo 11.00 – 12.30 Sessio 2
 
     CSC: Geoportti computing services for geospatial research at CSC – potential and challenges
     
-11.00 - 11.30/11.45 Introduction (intro_slides.md) and usecases (usecases.md; collect more than needed here and choose based on participant interest)
+11.00 - 11.30/11.45 Introduction (intro_slides.md) only
 
-11.30/11.45 - 12.30 Group work
+11.30/11.45 - 12.30 Group work (groupwork_intro.md)
 
 ## Slides
 
 Currently, slides only include suggestions
 
 intro_slides.md
-usecases.md
+groupwork_intro.md
+(not using usecases.md, but keeping it for reference)
 
 ## Question collection for group work part
 
