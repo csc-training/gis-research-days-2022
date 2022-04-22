@@ -49,3 +49,10 @@ Gather use case requirements
 Also ask about data movement to Allas/Puhti
 
 Laptop: collection oof usecases on hackmd , if people do not have laptop, pair up
+
+
+## Questions
+
+* Data/ software
+* training needs
+* 
