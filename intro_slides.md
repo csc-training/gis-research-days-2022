@@ -126,21 +126,7 @@ When own computer is not enough:
 <br></br>
 
 
-# Computing resources for you*
-
-<p align="center">
-  <img src="img/puhti_pouta2.png" width="70%"> 
-</p>
-
-
-# Getting started
-
-* [Step by step instructions ](https://research.csc.fi/en/accounts-and-projects)
-* [Find your account and project information](my.csc.fi)
-
-* [Read the docs](https://docs.csc.fi)
-
-* check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
+# Pouta
 
 # Software
 
@@ -162,6 +148,8 @@ When own computer is not enough:
 <p align="center">
   <img src="./img/r-access.svg">
 </p>
+
+# Use cases
 
 
 # Getting started
