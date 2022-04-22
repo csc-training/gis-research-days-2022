@@ -48,13 +48,11 @@ theme: csc-2019
 
 # Data
 
-# Allas
-
-# Paituli
+* Allas
+* Paituli
+* Fairdata
 
 # Getting started
-
-# Help
 
 # Training
 
