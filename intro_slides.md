@@ -7,7 +7,30 @@ lang: en
 theme: csc-2019
 ---
 
+# Practicalities
+
+* who is this workshop for?
+
+* please interrupt ask lots of questions
+* shared notes on HackMD
+
+# HackMD
+
+<br></br>
+[`hackmd.io/@GeospatialCSC/GISRD`](https://hackmd.io/@GeospatialCSC/GISRD/edit)
+<br></br>
+
+# Today
+
+* Short intro to CSC and available resources
+* Group work and discussion time
+
 # Geoportti
+
+* open research infrastructure in Finland 
+* science support with access to geospatial data and high performance and cloud computing resources
+* promotion of the use of geospatial data and geoinformatics methods in research and university education
+* [https://www.geoportti.fi/](https://www.geoportti.fi/)
 
 # CSC
 
@@ -119,6 +142,7 @@ When own computer is not enough:
 
 * check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
 
+# Software
 
 # Python
 
