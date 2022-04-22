@@ -27,12 +27,18 @@ usecases.md
 4. Conceptual workflow
 5. Steps that require supercomputer/expected bottleneck
 
+3 groups of people:
+* have done something with Puhti (advanced)
+* have an idea about using Puhti in future (intermediate)
+* no idea yet (beginners)
+
+Advanced: What was difficult/challenges? 
 
 Newcomers: think about how to get from current workflow (possibly GUI) to Puhti
 
 Everyone by themselves, then present in group/ full audience
 
-Tell to ask lots of questions. rather than 
+Tell to ask lots of questions. rather than looking to docs
 
 Leave out parallelisation
 
