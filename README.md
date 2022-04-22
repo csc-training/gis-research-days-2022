@@ -2,6 +2,8 @@
 
 Clearly say in beginning that this workshop intended for future CSC users (university, AMK, research institutes).
 
+Invite to EO-seminar!
+
 ## Tentative schedule
 
 Klo 11.00 – 12.30 Sessio 2 
