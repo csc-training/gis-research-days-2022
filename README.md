@@ -1,5 +1,7 @@
 # Presentation for Geoinformatics research days 2022
 
+Clearly say in beginning that this workshop intended for future CSC users (university, AMK, research institutes).
+
 ## Tentative schedule
 
 Klo 11.00 – 12.30 Sessio 2 
