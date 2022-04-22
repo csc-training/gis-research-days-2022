@@ -21,3 +21,23 @@ usecases.md
 
 ## Question collection for group work part
 
+1. Use case
+2. Requirements
+3. Software
+4. Conceptual workflow
+5. Steps that require supercomputer/expected bottleneck
+
+
+Newcomers: think about how to get from current workflow (possibly GUI) to Puhti
+
+Everyone by themselves, then present in group/ full audience
+
+Tell to ask lots of questions. rather than 
+
+Leave out parallelisation
+
+Gather use case requirements 
+
+Also ask about data movement to Allas/Puhti
+
+Laptop: collection oof usecases on hackmd , if people do not have laptop, pair up
