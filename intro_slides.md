@@ -19,6 +19,8 @@ theme: csc-2019
 
 # Puhti
 
+* webinterface
+
 # Pouta
 
 # Notebooks
