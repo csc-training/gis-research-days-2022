@@ -125,12 +125,16 @@ When own computer is not enough:
 [`puhti.csc.fi`](https://puhti.csc.fi)
 <br></br>
 
-
-# Pouta
-
 # Software
 
+list of preinstalled geospatial software
+note on what software is possible
+
 # Python
+
+Python page
+geoconda
+
 
 # R environment on Puhti
 
@@ -149,8 +153,35 @@ When own computer is not enough:
   <img src="./img/r-access.svg">
 </p>
 
-# Use cases
 
+
+# Pouta
+
+* virtual machines
+* webserver
+* databases
+
+# Sensitive data
+
+SD Connect & SD Desktop
+
+
+# Potential
+
+* speedup computations
+* larger computations
+* outsource computations
+* avoid software installation issues
+* recipe for environment provided
+* ...
+
+# Challenges
+
+* Linux and commandline
+* get to know new system and concepts
+* possibly new software/ways of working
+* data transfer bottleneck
+* ...
 
 # Getting started
 
