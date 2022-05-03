@@ -10,6 +10,7 @@ theme: csc-2019
 # Practicalities
 
 * who is this workshop for?
+  * Lukio - no point
 
 * please interrupt ask lots of questions
 * shared notes on HackMD
@@ -49,6 +50,8 @@ theme: csc-2019
   - cPouta / ePouta
   - Puhti / Mahti / LUMI
   - Notebooks
+  - Rahti
+
 </div>
 <div class="column">
 **Store, Share & Publish Data**
@@ -56,20 +59,21 @@ theme: csc-2019
   * Allas
   * IDA
   * Paituli
-  * EUDAT
+  * (EUDAT)
 </div>
+
+* Sensitive Data services
+
+-> **free** for open science at Finnish university and state research institute users
 
 # Why use CSC resources?
 
 When own computer is not enough:
 
 * Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
+* preinstalled software
+* data available
 **-> Outsource computations, keep own computer free**
-
-
-* **Server** needs -> cPouta
-* **Course computers** (same setup) -> Notebooks
-* It’s **free**! (for open science at Finnish university and state research institute users)
 
 # CSC expertise
 
@@ -113,6 +117,10 @@ When own computer is not enough:
 **-> CSC as project partner / subcontractor**
 </div>
 
+# Key to geocomputing - Puhti 
+
+GUI -> Scripts
+
 # Computing solutions - Puhti
 
 <p align="center">
@@ -121,19 +129,31 @@ When own computer is not enough:
 
 # Puhti webinterface 
 
+check your data, testing something, code development
+
 <br></br>
 [`puhti.csc.fi`](https://puhti.csc.fi)
 <br></br>
 
+
+
 # Software
 
 list of preinstalled geospatial software
+
 note on what software is possible
 
 # Python
 
-Python page
 geoconda
+* about 600 packages
+* raster, vector ,pointcloud, 
+* ML: scikit
+other modules:
+* keras, pytorch
+  * have geopandas, rasterio
+
+Tykky: own environment
 
 
 # R environment on Puhti
@@ -154,24 +174,11 @@ geoconda
 </p>
 
 
-
-# Pouta
-
-* virtual machines
-* webserver
-* databases
-
-# Sensitive data
-
-NEW!
-SD Connect & SD Desktop
-more coming up soon
-
-
 # Potential
 
 * speedup computations
 * larger computations
+* more GPU power (for ML)
 * outsource computations
 * avoid software installation issues
 * recipe for environment provided
@@ -187,15 +194,18 @@ more coming up soon
 
 # Usecases
 
+* large pointcloud/raster/vector processing and analyses
 * processing all forest areas of Finland for forest disturbance management
-* large viewshed analyses
+* large DEM analyses
 * Markov Chain Monte Carlo (MCMC) methods
 * Machine learning with huge geospatial datasets
-* NLS pointcloud to DEM over whole Finland
+* priorisation of conservation areas
 * yours?
 
 
 # Getting started
+
+Check out our [Geocomputing page](https://research.csc.fi/geocomputing)
 
 * [Step by step instructions ](https://research.csc.fi/en/accounts-and-projects)
 * [Find your account and project information](my.csc.fi)
@@ -207,9 +217,13 @@ more coming up soon
 
 # Training
 
-* ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
-* [Earth Observation workshop](https://ssl.eventilla.com/event/zArJA)
-* [Elements of Supercomputing](https://ssl.eventilla.com/event/mlOk6)
+* ['Using CSC environment efficiently' self-learning course](https://csc-training.github.io/csc-env-eff/)
+* [16.05: Hybrid Earth Observation workshop](https://ssl.eventilla.com/event/zArJA)
+* [18.05: Webinar - CSC´s generic services for storing, sharing and publishing data](https://ssl.eventilla.com/event/pEAl3)
+* [09.-10.06: Fundamentals of Machine Learning](https://ssl.eventilla.com/mlfundamentals)
+
+
+* [CSC geoinformatics training material](https://research.csc.fi/gis-learning-materials)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
