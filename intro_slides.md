@@ -163,7 +163,9 @@ geoconda
 
 # Sensitive data
 
+NEW!
 SD Connect & SD Desktop
+more coming up soon
 
 
 # Potential
@@ -182,6 +184,16 @@ SD Connect & SD Desktop
 * possibly new software/ways of working
 * data transfer bottleneck
 * ...
+
+# Usecases
+
+* processing all forest areas of Finland for forest disturbance management
+* large viewshed analyses
+* Markov Chain Monte Carlo (MCMC) methods
+* Machine learning with huge geospatial datasets
+* NLS pointcloud to DEM over whole Finland
+* yours?
+
 
 # Getting started
 

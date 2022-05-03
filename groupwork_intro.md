@@ -16,15 +16,22 @@ theme: csc-2019
 Think about :
 
 * Your own use case
-* Requirements
-* Software
-* Conceptual workflow
-* Steps that require supercomputer/expected bottleneck
-* ...
+    * Requirements
+    * Software
+    * Conceptual workflow
+    * Steps that require supercomputer/expected bottleneck
+* Possible future use case
+* Example use case
+
+# Example use case
 
 
 # In group 
 
+* Potential for own or future use case?
+    * What do you think you can achieve when using CSC resources
+    * Could you do something that is not possible without CSC resources
+    * 
 * Challenges and how to overcome
 * ..
 
