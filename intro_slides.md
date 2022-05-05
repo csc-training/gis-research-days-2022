@@ -10,8 +10,6 @@ theme: csc-2019
 # Practicalities
 
 * who is this workshop for?
-  * Lukio - no point
-
 * please interrupt ask lots of questions
 * shared notes on HackMD
 
