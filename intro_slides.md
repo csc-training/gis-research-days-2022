@@ -117,7 +117,7 @@ When own computer is not enough:
 
 # Key to geocomputing - Puhti 
 
-![](gui_to_script.png)
+![](img/gui_to_script.png)
 
 # Computing solutions - Puhti
 
@@ -137,9 +137,26 @@ When own computer is not enough:
 
 # Software
 
-list of preinstalled geospatial software
-
-note on what software is possible
+<div class="column">
+* FORCE & SPLITS
+* GDAL / OGR
+* LasTools 
+* MatLab / Octave
+* Mapnik
+* OpenDroneMap
+* Orfeo Toolbox
+* PCL
+</div>
+<div class="column">
+* PDAL
+* CloudCompare
+* QGIS
+* SagaGIS
+* SNAP, Sen2cor
+* WhiteboxTools
+* Zonation
+* ...
+</div>
 
 # Python
 
