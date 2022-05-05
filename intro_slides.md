@@ -119,7 +119,7 @@ When own computer is not enough:
 
 # Key to geocomputing - Puhti 
 
-GUI -> Scripts
+![](gui_to_script.png)
 
 # Computing solutions - Puhti
 
@@ -129,7 +129,7 @@ GUI -> Scripts
 
 # Puhti webinterface 
 
-check your data, testing something, code development
+-> check your data, testing something, code development
 
 <br></br>
 [`puhti.csc.fi`](https://puhti.csc.fi)
@@ -145,15 +145,17 @@ note on what software is possible
 
 # Python
 
-geoconda
+Geoconda
 * about 600 packages
-* raster, vector ,pointcloud, 
-* ML: scikit
+* for raster, vector, pointcloud processing
+* + scikit and other data science packages
+
 other modules:
 * keras, pytorch
   * have geopandas, rasterio
 
-Tykky: own environment
+You can also create own environment/ install own software!
+
 
 
 # R environment on Puhti
