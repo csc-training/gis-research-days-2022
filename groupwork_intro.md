@@ -9,6 +9,7 @@ theme: csc-2019
 # Groupwork intro
 
 * ask questions
+* discuss in group
 * ...
 
 # By yourself
@@ -24,6 +25,8 @@ Think about :
 * Example use case
 
 # Example use case
+
+
 
 
 # In group 
