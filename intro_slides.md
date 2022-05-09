@@ -9,8 +9,8 @@ theme: csc-2019
 
 # Practicalities
 
-* who is this workshop for?
-* please interrupt ask lots of questions
+* who is this workshop for? YOU! 
+* please interrupt; ask lots of questions
 * shared notes, questions, polls on HackMD
 
 # HackMD
@@ -31,7 +31,9 @@ theme: csc-2019
 * open research infrastructure in Finland 
 * science support with access to geospatial data and high performance and cloud computing resources
 * promotion of the use of geospatial data and geoinformatics methods in research and university education
+* catalysing innvoation of geospatial technology for society
 * [https://www.geoportti.fi/](https://www.geoportti.fi/)
+* Twitter: @geoportti
 
 # CSC
 
@@ -81,13 +83,13 @@ When own computer is not enough:
 # Usecases
 
 * large pointcloud/raster/vector processing and analyses
-* processing all forest areas of Finland for forest disturbance management
+* processing all (forest) areas of Finland for (forest disturbance management)
 * large scale routing operations
 * large DEM analyses
 * Machine learning with huge geospatial datasets
 * Visualizing large datasets
 
--> some of which are not even possible on your laptop
+-> some of which are not even possible on your laptop, or may take days/weeks to complete
 
 > large: not only one large process but also many small
 
@@ -105,7 +107,7 @@ When own computer is not enough:
 
 # Puhti webinterface 
 
--> check your data, testing something, code development, file management, quotas, apps
+-> check your data, testing, code development, file management, quotas, apps
 
 <br></br>
 [`puhti.csc.fi`](https://puhti.csc.fi)
