@@ -55,7 +55,7 @@ theme: csc-2019
 **Store, Share & Publish Data**
 
   * Allas
-  * IDA
+  * Fairdata
   * Paituli
   * (EUDAT)
 </div>
@@ -71,6 +71,7 @@ When own computer is not enough:
 * Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
 * preinstalled software
 * data available
+
 **-> Outsource computations, keep own computer free**
 
 # CSC expertise
@@ -88,6 +89,7 @@ When own computer is not enough:
 <br></br>
 
 * Geoinformatics team
+* AI and data analytics team
 * Storage team
 * Supercomputer team
 * Cloudcomputing team
@@ -133,8 +135,6 @@ When own computer is not enough:
 [`puhti.csc.fi`](https://puhti.csc.fi)
 <br></br>
 
-
-
 # Software
 
 <div class="column">
@@ -171,8 +171,6 @@ other modules:
 
 You can also create own environment/ install own software!
 
-
-
 # R environment on Puhti
 
 - Includes: 
@@ -192,11 +190,12 @@ You can also create own environment/ install own software!
 # Potential
 
 * speedup computations
-* larger computations
+* large computations
 * more GPU power (for ML)
 * outsource computations
 * avoid software installation issues
 * recipe for environment provided
+* CSC expertise
 * ...
 
 # Challenges
@@ -210,11 +209,10 @@ You can also create own environment/ install own software!
 # Usecases
 
 * large pointcloud/raster/vector processing and analyses
-* processing all forest areas of Finland for forest disturbance management
-* large DEM analyses
-* Markov Chain Monte Carlo (MCMC) methods
+  * processing all forest areas of Finland for forest disturbance management
+  * large DEM analyses
 * Machine learning with huge geospatial datasets
-* priorisation of conservation areas
+
 * yours?
 
 
@@ -242,7 +240,29 @@ Check out our [Geocomputing page](https://research.csc.fi/geocomputing)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
-# Thanks
+# Groupwork
 
+# By yourself
 
+Think about your own use case / possible future use case / idea:
+
+* What are your requirements? Memory, storage, time,..
+* What software do you need? Any restrictions?
+* What is your workflow? Can it be more efficient by using other tools/coding? 
+* What are steps that could be parallelized? In what way?
+* Expected bottleneck
+
+# In group 
+
+* Potential for own or future use case?
+    * What do you think you can achieve when using CSC resources
+    * Could you do something that is not possible without CSC resources
+    * 
+* Challenges and how to overcome
+* Any questions?
+
+# Present
+
+* collect in HackMD
+* short presentation
 
