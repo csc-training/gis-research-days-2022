@@ -1,7 +1,7 @@
 --- 
 title: Geoportti computing services for geospatial research at CSC 
 subtitle: – potential and challenges
-author: Jesse Harrison and Samantha Wittke
+author: Katri Tegel and Samantha Wittke
 date: 10.05.22
 lang: en
 theme: csc-2019
@@ -11,17 +11,19 @@ theme: csc-2019
 
 * who is this workshop for?
 * please interrupt ask lots of questions
-* shared notes on HackMD
+* shared notes, questions, polls on HackMD
 
 # HackMD
 
+
+![](img/qr-code.png)
 <br></br>
 [`hackmd.io/@GeospatialCSC/GISRD`](https://hackmd.io/@GeospatialCSC/GISRD/edit)
 <br></br>
 
 # Today
 
-* Short intro to CSC and available resources
+* Short intro to Geoportti, CSC and available resources
 * Group work and discussion time
 
 # Geoportti
@@ -62,60 +64,32 @@ theme: csc-2019
 
 * Sensitive Data services
 
--> **free** for open science at Finnish university and state research institute users
+-> **free** for open science for Finnish university and state research institute users
 
-# Why use CSC resources?
+# Why use CSCs supercomputer Puhti?
 
 When own computer is not enough:
 
 * Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
-* preinstalled software
-* data available
+* prebuilt environments
+* parallelization 
+* data availability
+* CSC expert support
 
-**-> Outsource computations, keep own computer free**
+**-> Outsource heavy computations, keep own computer free**
 
-# CSC expertise
+# Usecases
 
-<div class="column">
-...at your fingertips:
+* large pointcloud/raster/vector processing and analyses
+* processing all forest areas of Finland for forest disturbance management
+* large scale routing operations
+* large DEM analyses
+* Machine learning with huge geospatial datasets
+* Visualizing large datasets
 
-[`docs.csc.fi`](https://docs.csc.fi)
+-> some of which are not even possible on your laptop
 
-[`research.csc.fi`](https://research.csc.fi)
-
-</div>
-<div class="column">
-**\+ servicedesk@csc.fi**
-<br></br>
-
-* Geoinformatics team
-* AI and data analytics team
-* Storage team
-* Supercomputer team
-* Cloudcomputing team
-* Accounts team
-* ...
-</div>
-
-# How we can help
-
-<div class="column">
-* 'Z is not working as expected'
-* 'my code gives error Y '
-* 'can A be installed to Puhti?'
-* 'any advice how to do X?'
-* training/example wishes
-
-**-> servicedesk@csc.fi**
-
-[Speed up your request](https://docs.csc.fi/support/support-howto/)
-
-</div>
-<div class="column">
-* Setting up pipelines, product provision, R&D, ...
-
-**-> CSC as project partner / subcontractor**
-</div>
+> large: not only one large process but also many small
 
 # Key to geocomputing - Puhti 
 
@@ -127,9 +101,11 @@ When own computer is not enough:
   <img src="img/puhti_overview.png" width="50%"> 
 </p>
 
+> non-interactive, queue, resource knowledge, more disk/CPU
+
 # Puhti webinterface 
 
--> check your data, testing something, code development
+-> check your data, testing something, code development, file management, quotas, apps
 
 <br></br>
 [`puhti.csc.fi`](https://puhti.csc.fi)
@@ -203,17 +179,52 @@ You can also create own environment/ install own software!
 * Linux and commandline
 * get to know new system and concepts
 * possibly new software/ways of working
+* queuing system
 * data transfer bottleneck
 * ...
 
-# Usecases
+# CSC expertise
 
-* large pointcloud/raster/vector processing and analyses
-  * processing all forest areas of Finland for forest disturbance management
-  * large DEM analyses
-* Machine learning with huge geospatial datasets
+<div class="column">
+...at your fingertips:
 
-* yours?
+[`docs.csc.fi`](https://docs.csc.fi)
+
+[`research.csc.fi`](https://research.csc.fi)
+
+</div>
+<div class="column">
+**\+ servicedesk@csc.fi**
+<br></br>
+
+* Geoinformatics team
+* AI and data analytics team
+* Storage team
+* Supercomputer team
+* Cloudcomputing team
+* Accounts team
+* ...
+</div>
+
+# How we can help
+
+<div class="column">
+* 'Z is not working as expected'
+* 'my code gives error Y '
+* 'can A be installed to Puhti?'
+* 'any advice how to do X?'
+* training/example wishes
+
+**-> servicedesk@csc.fi**
+
+[Speed up your request](https://docs.csc.fi/support/support-howto/)
+
+</div>
+<div class="column">
+* Setting up pipelines, product provision, R&D, ...
+
+**-> CSC as project partner / subcontractor**
+</div>
 
 
 # Getting started
@@ -250,6 +261,7 @@ Think about your own use case / possible future use case / idea:
 * What software do you need? Any restrictions?
 * What is your workflow? Can it be more efficient by using other tools/coding? 
 * What are steps that could be parallelized? In what way?
+* Does your used software support parallelization?
 * Expected bottleneck
 
 # In group 
@@ -257,12 +269,11 @@ Think about your own use case / possible future use case / idea:
 * Potential for own or future use case?
     * What do you think you can achieve when using CSC resources
     * Could you do something that is not possible without CSC resources
-    * 
+    * ...
 * Challenges and how to overcome
-* Any questions?
+* Questions?
 
 # Present
 
-* collect in HackMD
-* short presentation
-
+* collect present/possible usecases in HackMD
+* short presentation (if there is time)
