@@ -15,8 +15,10 @@ theme: csc-2019
 
 # HackMD
 
+<p align="center">
+  <img src="img/qr-code.png" width="30%"> 
+</p>
 
-![](img/qr-code.png)
 <br></br>
 [`hackmd.io/@GeospatialCSC/GISRD`](https://hackmd.io/@GeospatialCSC/GISRD/edit)
 <br></br>
@@ -139,13 +141,15 @@ When own computer is not enough:
 # Python
 
 Geoconda
+
 * about 600 packages
 * for raster, vector, pointcloud processing
-* + scikit and other data science packages
+* \+ scikit and other data science packages
 
 other modules:
-* keras, pytorch
-  * have geopandas, rasterio
+
+* Deep learning: keras, pytorch
+-> have geopandas, rasterio
 
 You can also create own environment/ install own software!
 

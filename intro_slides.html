@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Katri Tegel and Samantha Wittke">
+  <title>Geoportti computing services for geospatial research at CSC</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://mlouhivu.github.io/static-engine/reveal/3.5.0/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="theme/csc-2016/csc.css" id="theme">
+  <link rel="stylesheet" href="theme/csc-2016/fonts.css">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'theme/csc-2016/pdf.css' : 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section class="slide level1 title-slide" data-background-size="contain" data-background="theme/csc-2016/img/title-en.png">
+  <h1>Geoportti computing services for geospatial research at CSC</h1>
+  <p>– potential and challenges</p>
+  <p>Katri Tegel and Samantha Wittke, 10.05.22</p>
+</section>
+
+<section id="practicalities" class="slide level1" data-background-size="contain">
+<h1>Practicalities</h1>
+<ul>
+<li>who is this workshop for? YOU!</li>
+<li>please interrupt; ask lots of questions</li>
+<li>shared notes, questions, polls on HackMD</li>
+</ul>
+</section>
+<section id="hackmd" class="slide level1" data-background-size="contain">
+<h1>HackMD</h1>
+<p align="center">
+<img src="img/qr-code.png" width="30%">
+</p>
+<p><br></br> <a href="https://hackmd.io/@GeospatialCSC/GISRD/edit"><code>hackmd.io/@GeospatialCSC/GISRD</code></a> <br></br></p>
+</section>
+<section id="today" class="slide level1" data-background-size="contain">
+<h1>Today</h1>
+<ul>
+<li>Short intro to Geoportti, CSC and available resources</li>
+<li>Group work and discussion time</li>
+</ul>
+</section>
+<section id="geoportti" class="slide level1" data-background-size="contain">
+<h1>Geoportti</h1>
+<ul>
+<li>open research infrastructure in Finland</li>
+<li>science support with access to geospatial data and high performance and cloud computing resources</li>
+<li>promotion of the use of geospatial data and geoinformatics methods in research and university education</li>
+<li>catalysing innvoation of geospatial technology for society</li>
+<li><a href="https://www.geoportti.fi/" class="uri">https://www.geoportti.fi/</a></li>
+<li>Twitter: <span class="citation" data-cites="geoportti">@geoportti</span></li>
+</ul>
+</section>
+<section id="csc" class="slide level1" data-background-size="contain">
+<h1>CSC</h1>
+<p align="center">
+<img src="./img/csc-bg.png">
+</p>
+</section>
+<section id="csc-services" class="slide level1" data-background-size="contain">
+<h1>CSC services</h1>
+<p><a href="https://research.csc.fi/en/service-catalog"><code>research.csc.fi/en/service-catalog</code></a></p>
+<br></br>
+<div class="column">
+<p><strong>Compute &amp; Analyze</strong></p>
+<ul>
+<li>cPouta / ePouta</li>
+<li>Puhti / Mahti / LUMI</li>
+<li>Notebooks</li>
+<li>Rahti</li>
+</ul>
+</div>
+<div class="column">
+<p><strong>Store, Share &amp; Publish Data</strong></p>
+<ul>
+<li>Allas</li>
+<li>Fairdata</li>
+<li>Paituli</li>
+<li>(EUDAT)</li>
+</ul>
+</div>
+<ul>
+<li>Sensitive Data services</li>
+</ul>
+<p>-&gt; <strong>free</strong> for open science for Finnish university and state research institute users</p>
+</section>
+<section id="why-use-cscs-supercomputer-puhti" class="slide level1" data-background-size="contain">
+<h1>Why use CSCs supercomputer Puhti?</h1>
+<p>When own computer is not enough:</p>
+<ul>
+<li>Resource needs (time (&gt; 2 hours), memory (&gt; 8 GB), storage (&gt; 50GB))</li>
+<li>prebuilt environments</li>
+<li>parallelization</li>
+<li>data availability</li>
+<li>CSC expert support</li>
+</ul>
+<p><strong>-&gt; Outsource heavy computations, keep own computer free</strong></p>
+</section>
+<section id="usecases" class="slide level1" data-background-size="contain">
+<h1>Usecases</h1>
+<ul>
+<li>large pointcloud/raster/vector processing and analyses</li>
+<li>processing all (forest) areas of Finland for (forest disturbance management)</li>
+<li>large scale routing operations</li>
+<li>large DEM analyses</li>
+<li>Machine learning with huge geospatial datasets</li>
+<li>Visualizing large datasets</li>
+</ul>
+<p>-&gt; some of which are not even possible on your laptop, or may take days/weeks to complete</p>
+<blockquote>
+<p>large: not only one large process but also many small</p>
+</blockquote>
+</section>
+<section id="key-to-geocomputing---puhti" class="slide level1" data-background-size="contain">
+<h1>Key to geocomputing - Puhti</h1>
+<figure>
+<img src="img/gui_to_script.png" />
+</figure>
+</section>
+<section id="computing-solutions---puhti" class="slide level1" data-background-size="contain">
+<h1>Computing solutions - Puhti</h1>
+<p align="center">
+<img src="img/puhti_overview.png" width="50%">
+</p>
+<blockquote>
+<p>non-interactive, queue, resource knowledge, more disk/CPU</p>
+</blockquote>
+</section>
+<section id="puhti-webinterface" class="slide level1" data-background-size="contain">
+<h1>Puhti webinterface</h1>
+<p>-&gt; check your data, testing, code development, file management, quotas, apps</p>
+<p><br></br> <a href="https://puhti.csc.fi"><code>puhti.csc.fi</code></a> <br></br></p>
+</section>
+<section id="software" class="slide level1" data-background-size="contain">
+<h1>Software</h1>
+<div class="column">
+<ul>
+<li>FORCE &amp; SPLITS</li>
+<li>GDAL / OGR</li>
+<li>LasTools</li>
+<li>MatLab / Octave</li>
+<li>Mapnik</li>
+<li>OpenDroneMap</li>
+<li>Orfeo Toolbox</li>
+<li>PCL</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>PDAL</li>
+<li>CloudCompare</li>
+<li>QGIS</li>
+<li>SagaGIS</li>
+<li>SNAP, Sen2cor</li>
+<li>WhiteboxTools</li>
+<li>Zonation</li>
+<li>...</li>
+</ul>
+</div>
+</section>
+<section id="python" class="slide level1" data-background-size="contain">
+<h1>Python</h1>
+<p>Geoconda</p>
+<ul>
+<li>about 600 packages</li>
+<li>for raster, vector, pointcloud processing</li>
+<li>+ scikit and other data science packages</li>
+</ul>
+<p>other modules:</p>
+<ul>
+<li>Deep learning: keras, pytorch -&gt; have geopandas, rasterio</li>
+</ul>
+<p>You can also create own environment/ install own software!</p>
+</section>
+<section id="r-environment-on-puhti" class="slide level1" data-background-size="contain">
+<h1>R environment on Puhti</h1>
+<ul>
+<li>Includes:</li>
+<li>R and RStudio Server</li>
+<li>1300+ R packages</li>
+<li>Pre-installed libraries / software required by R packages</li>
+<li>Mathematics library for faster calculations (Intel® OneMKL)</li>
+<li>TensorFlow (for using <a href="https://tensorflow.rstudio.com/">the R Interface to Tensorflow</a>)</li>
+</ul>
+</section>
+<section id="r-environment-on-puhti-1" class="slide level1" data-background-size="contain">
+<h1>R environment on Puhti</h1>
+<p align="center">
+<img src="./img/r-access.svg">
+</p>
+</section>
+<section id="potential" class="slide level1" data-background-size="contain">
+<h1>Potential</h1>
+<ul>
+<li>speedup computations</li>
+<li>large computations</li>
+<li>more GPU power (for ML)</li>
+<li>outsource computations</li>
+<li>avoid software installation issues</li>
+<li>recipe for environment provided</li>
+<li>CSC expertise</li>
+<li>...</li>
+</ul>
+</section>
+<section id="challenges" class="slide level1" data-background-size="contain">
+<h1>Challenges</h1>
+<ul>
+<li>Linux and commandline</li>
+<li>get to know new system and concepts</li>
+<li>possibly new software/ways of working</li>
+<li>queuing system</li>
+<li>data transfer bottleneck</li>
+<li>...</li>
+</ul>
+</section>
+<section id="csc-expertise" class="slide level1" data-background-size="contain">
+<h1>CSC expertise</h1>
+<div class="column">
+<p>...at your fingertips:</p>
+<p><a href="https://docs.csc.fi"><code>docs.csc.fi</code></a></p>
+<p><a href="https://research.csc.fi"><code>research.csc.fi</code></a></p>
+</div>
+<div class="column">
+<p><strong>+ servicedesk@csc.fi</strong> <br></br></p>
+<ul>
+<li>Geoinformatics team</li>
+<li>AI and data analytics team</li>
+<li>Storage team</li>
+<li>Supercomputer team</li>
+<li>Cloudcomputing team</li>
+<li>Accounts team</li>
+<li>...</li>
+</ul>
+</div>
+</section>
+<section id="how-we-can-help" class="slide level1" data-background-size="contain">
+<h1>How we can help</h1>
+<div class="column">
+<ul>
+<li>'Z is not working as expected'</li>
+<li>'my code gives error Y '</li>
+<li>'can A be installed to Puhti?'</li>
+<li>'any advice how to do X?'</li>
+<li>training/example wishes</li>
+</ul>
+<p><strong>-&gt; servicedesk@csc.fi</strong></p>
+<p><a href="https://docs.csc.fi/support/support-howto/">Speed up your request</a></p>
+</div>
+<div class="column">
+<ul>
+<li>Setting up pipelines, product provision, R&amp;D, ...</li>
+</ul>
+<p><strong>-&gt; CSC as project partner / subcontractor</strong></p>
+</div>
+</section>
+<section id="getting-started" class="slide level1" data-background-size="contain">
+<h1>Getting started</h1>
+<p>Check out our <a href="https://research.csc.fi/geocomputing">Geocomputing page</a></p>
+<ul>
+<li><a href="https://research.csc.fi/en/accounts-and-projects">Step by step instructions</a></li>
+<li><p><a href="my.csc.fi">Find your account and project information</a></p></li>
+<li><p><a href="https://docs.csc.fi">Read the docs</a></p></li>
+<li><p>check our <a href="https://docs.csc.fi/support/tutorials/">tutorials</a> and <a href="https://github.com/csc-training/geocomputing">geocomputing examples</a></p></li>
+</ul>
+</section>
+<section id="training" class="slide level1" data-background-size="contain">
+<h1>Training</h1>
+<ul>
+<li><a href="https://csc-training.github.io/csc-env-eff/">'Using CSC environment efficiently' self-learning course</a></li>
+<li><a href="https://ssl.eventilla.com/event/zArJA">16.05: Hybrid Earth Observation workshop</a></li>
+<li><a href="https://ssl.eventilla.com/event/pEAl3">18.05: Webinar - CSC´s generic services for storing, sharing and publishing data</a></li>
+<li><p><a href="https://ssl.eventilla.com/mlfundamentals">09.-10.06: Fundamentals of Machine Learning</a></p></li>
+<li><p><a href="https://research.csc.fi/gis-learning-materials">CSC geoinformatics training material</a></p></li>
+</ul>
+<p>-&gt; follow our <a href="https://www.csc.fi/en/training#training-calendar">training calendar</a></p>
+</section>
+<section id="groupwork" class="slide level1" data-background-size="contain">
+<h1>Groupwork</h1>
+</section>
+<section id="by-yourself" class="slide level1" data-background-size="contain">
+<h1>By yourself</h1>
+<p>Think about your own use case / possible future use case / idea:</p>
+<ul>
+<li>What are your requirements? Memory, storage, time,..</li>
+<li>What software do you need? Any restrictions?</li>
+<li>What is your workflow? Can it be more efficient by using other tools/coding?</li>
+<li>What are steps that could be parallelized? In what way?</li>
+<li>Does your used software support parallelization?</li>
+<li>Expected bottleneck</li>
+</ul>
+</section>
+<section id="in-group" class="slide level1" data-background-size="contain">
+<h1>In group</h1>
+<ul>
+<li>Potential for own or future use case?
+<ul>
+<li>What do you think you can achieve when using CSC resources</li>
+<li>Could you do something that is not possible without CSC resources</li>
+<li>...</li>
+</ul></li>
+<li>Challenges and how to overcome</li>
+<li>Questions?</li>
+</ul>
+</section>
+<section id="present" class="slide level1" data-background-size="contain">
+<h1>Present</h1>
+<ul>
+<li>collect present/possible usecases in HackMD</li>
+<li>short presentation (if there is time)</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/head.min.js"></script>
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+        height: 1080,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/plugin/zoom-js/zoom.js', async: true },
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
